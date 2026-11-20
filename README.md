@@ -107,6 +107,8 @@ PDF 합치기 · 분리하기 · 회전하기 · 변환 · 마스킹 · 용량 �
 
 ## 🛠 소스로 실행하기 (개발자용)
 
+> 이 저장소에 올라와 있는 `pdf_helper.py` 가 배포된 exe의 소스코드입니다.
+
 Python 3.10 이상을 권장합니다.
 
 ```bash
@@ -133,7 +135,7 @@ pyinstaller --onefile --windowed --name "PDF도우미" ^
 **새 버전을 배포하는 순서**
 
 1. `pdf_helper.py` 의 `CURRENT_VERSION` 숫자를 올립니다.
-2. exe를 새로 만들어 **Releases** 에 올립니다.
+2. exe를 새로 만들어 **Releases** 에 올립니다. (Releases 설명란에 소스코드 위치도 함께 적어 주세요.)
 3. `version.json` 의 내용을 수정해 저장소에 올립니다.
 
 ```json
@@ -161,9 +163,22 @@ pyinstaller --onefile --windowed --name "PDF도우미" ^
 사용 중 불편한 점이나 오류가 있다면 [Issues](../../issues) 에 남겨 주세요.
 오류 메시지 화면과 어떤 작업을 하던 중이었는지 함께 적어 주시면 큰 도움이 됩니다.
 
+---
+
 ## 📜 라이선스
 
-개인·업무용으로 자유롭게 사용하실 수 있습니다. (라이선스는 필요에 맞게 수정하세요.)
+이 프로그램은 **GNU Affero General Public License v3.0 (AGPL-3.0)** 에 따라 배포됩니다.
+전체 조건은 저장소의 [LICENSE](LICENSE) 파일을 참고해 주세요.
 
-> 이 프로그램은 [PyMuPDF](https://pymupdf.readthedocs.io/)(AGPL-3.0), CustomTkinter, Pillow, tkinterdnd2, pywin32 를 사용합니다.
-> 소스를 공개하지 않고 배포하려는 경우 PyMuPDF의 라이선스 조건을 꼭 확인해 주세요.
+- 소스코드는 이 저장소에서 누구나 볼 수 있습니다.
+- 이 프로그램을 수정해서 배포하는 경우, 수정한 소스도 같은 AGPL-3.0 조건으로 공개해야 합니다.
+
+### 사용한 오픈소스
+
+| 라이브러리 | 라이선스 |
+|---|---|
+| [PyMuPDF](https://pymupdf.readthedocs.io/) | AGPL-3.0 |
+| [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) | MIT |
+| [Pillow](https://python-pillow.org/) | HPND (MIT 계열) |
+| [tkinterdnd2](https://github.com/Eliav2/tkinterdnd2) | MIT |
+| [pywin32](https://github.com/mhammond/pywin32) | PSF |
