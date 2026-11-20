@@ -1,5 +1,5 @@
 {
   "version": "3.0.0",
   "download_url": "https://github.com/tworemind-cpu/pdf_helper/releases/latest",
-  "notes": "- PDF 마스킹 기능 추가"
+  "notes": "- PDF 마스킹 기능 추가 - 만들기·분리하기에 회전하기 기능을 추가하고 기존 회전하기 메뉴 삭제"
 }
