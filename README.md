@@ -142,7 +142,7 @@ pyinstaller --onefile --windowed --name "pdf_helper" ^
 
 ## 📝 버전 이력
 
-전체 버전 이력은 **[CHANGELOG.md](CHANGELOG.md)** 에서 확인하실 수 있습니다.
+전체 버전 이력은 **[이력.md](docs/이력.md)** 에서 확인하실 수 있습니다.
 
 ---
 
